@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button onclick="changeText();">Click me!</button>
+    <span id="output">replace me</span>
+    <input id="textbox" type="text" />	
+
+<script>
+   // var name = document.getElementById("id");
+
+    function changeText() {
+	var span = document.getElementById("output");
+	var textBox = document.getElementById("textbox");
+	textBox.style.fontSize = "13pt";
+   	textBox.style.fontFamily = "Comic Sans MS";
+   	textBox.style.color = "red"; // or pink?
+
+	// textbox.style.color = "red"; 
+		
+}	
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <script>
+
+function buttonCall(){
+var x,y,z;
+x= Number(document.getElementById("one").value);
+y= Number(document.getElementById("two").value);
+z=x+y;
+document.getElementById("result").value=z;
+}
+            
+            </script>
+            
+
+    </head>
+<body>
+
+Enter number 1 <input id= "one"><br>
+Enter number 2 <input id= "two"><br>
+
+<button onclick="buttonCall()">add</button>
+<input id="result">
+
+
+
+</body>
+
+</html>
